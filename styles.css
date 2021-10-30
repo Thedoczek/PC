@@ -2,7 +2,8 @@
 
 table {
   border-collapse: collapse;
-  margin: 0;
+  border-color: #e0f0ff;
+  border-width: 0px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -10,12 +11,20 @@ table {
   transform: translate(-50%, -50%);
 }
 
+table td {
+  padding: 3px;
+  border-width: 3px;
+
+strike {
+    text-decoration: line-through;
+}
+
 b6 {
-  font-weight: 600
+  font-weight: 600;
 }
 
 b5 {
-  font-weight: 500
+  font-weight: 500;
 }
 
 a:link {
