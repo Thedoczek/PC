@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+table {
+  border-collapse: collapse;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+b6 {
+  font-weight: 600
+}
+
+b5 {
+  font-weight: 500
+}
+
+a:link {
+  color: #0080ff;
+  text-decoration: none;
+}
+
+/* .light a:link {
+  color: #0060c0;
+} */
+
+a:visited {
+  color: #1a8dff;
+  text-decoration: none;
+}
+/* .light a:visited {
+  color: #006ad3;
+} */
+
+a:hover {
+  color: #0068d0;
+  text-decoration: underline;
+}
+/* .light a:hover {
+  color: #004e9c;
+} */
+
+a:active {
+  color: #686868;
+  text-decoration: underline;
+}
+/* .light a:active {
+  color: #4e4e4e;
+} */
+
+body {
+  color:e0f0ff;
+  background-color:004080;
+  font-family:Nunito, sans-serif;
+  font-weight:400;
+  font-size:16;
+}
+/* body.light {
+  color:003060;
+  background-color:80ff80;
+} */
+
+.hide div {
+  display: none;
+}
+
+.hide div:target {
+  display: contents;
+}
+
+hr {color:e0f0ff}
+/* hr.light {color:003060} */
